@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import { Button } from '@backoffice/components';
+</script>
+
 <template>
   <div class="about">
     <h1>This is an about page.</h1>
+    <Button label="Hola"></Button>
   </div>
 </template>
 
