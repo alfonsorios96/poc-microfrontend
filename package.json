@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npx nx serve entity",
-    "test:unit": "npx nx test components",
-    "test:e2e": "npx nx e2e entity-e2e --ui",
-    "storybook:generate": "npx nx g @nx/vue:stories --project=components",
-    "storybook:run": "npx nx storybook components"
+    "start": "nx serve entity",
+    "test:unit": "nx test components",
+    "test:e2e": "nx e2e entity-e2e --ui",
+    "storybook:generate": "nx g @nx/vue:stories --project=components",
+    "storybook:run": "nx storybook components"
   },
   "private": true,
   "devDependencies": {
