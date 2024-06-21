@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@backoffice/components": ["components/src/index.ts"]
+      "@backoffice/components": ["components/src/index.ts"],
+      "@backoffice/entity": ["apps/entity/src/app.vue"]
     }
   },
   "exclude": ["node_modules", "tmp"]

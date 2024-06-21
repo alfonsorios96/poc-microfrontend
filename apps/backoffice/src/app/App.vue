@@ -1,20 +1,18 @@
 <script setup lang="ts">
-import { Button } from '@backoffice/components';
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <main>
-    <header>
-      <nav>
-        <h2>Hello world from another side! Entity</h2>
-        <Button label="Click on me"></Button>
-      </nav>
-    </header>
-    <nuxt-page />
-  </main>
+  <header>
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+    </nav>
+  </header>
+  <RouterView />
 </template>
 
-<style scoped lang="css">
+<style scoped lang="scss">
 header {
   line-height: 1.5;
   max-width: 100vw;

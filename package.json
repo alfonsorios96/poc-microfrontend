@@ -4,8 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve entity",
+    "domain:generator": "nx g @nx/vue:app domain",
     "test:unit": "nx test components",
-    "test:e2e": "nx e2e entity-e2e --ui",
+    "test:e2e-generator": "nx g @nx/playwright:configuration --project=entity",
+    "test:e2e": "nx e2e entity/entity-e2e --ui",
     "storybook:generate": "nx g @nx/vue:stories --project=components",
     "storybook:run": "nx storybook components"
   },
@@ -77,8 +79,10 @@
     "vue-tsc": "^1.8.8"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^8.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "vue-i18n": "^9.13.1"
   }
 }

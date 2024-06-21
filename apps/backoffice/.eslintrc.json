@@ -1,20 +1,18 @@
 {
   "extends": [
-    "plugin:playwright/recommended",
-    "@nuxt/eslint-config",
+    "plugin:vue/vue3-essential",
+    "eslint:recommended",
+    "@vue/eslint-config-typescript",
+    "@vue/eslint-config-prettier/skip-formatting",
     "../../.eslintrc.json"
   ],
-  "ignorePatterns": ["!**/*", ".nuxt/**", ".output/**", "node_modules"],
+  "ignorePatterns": ["!**/*"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.vue"],
       "rules": {
         "vue/multi-word-component-names": "off"
       }
-    },
-    {
-      "files": ["e2e/**/*.{ts,js,tsx,jsx}"],
-      "rules": {}
     }
   ]
 }

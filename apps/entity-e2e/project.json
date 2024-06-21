@@ -1,8 +1,0 @@
-{
-  "name": "entity-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/entity-e2e/src",
-  "implicitDependencies": ["entity"],
-  "// targets": "to see all targets run: nx show project entity-e2e --web",
-  "targets": {}
-}
