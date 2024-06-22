@@ -1,0 +1,14 @@
+/* libs/styles/src/index.css */
+
+@import './reset.css';
+@import './variables.css';
+@import './mixins.css';
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Otros estilos globales */

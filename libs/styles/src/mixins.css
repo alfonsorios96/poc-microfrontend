@@ -1,0 +1,32 @@
+/* libs/styles/src/mixins.css */
+
+/* Ejemplo de un mixin para el centro de elementos */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ejemplo de mixin para botones */
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}

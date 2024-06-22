@@ -46,7 +46,7 @@ export default defineComponent({
   cursor: pointer;
 }
 .btn-primary {
-  background-color: #007bff;
+  background-color: var(--getin-colors-primary);
   color: white;
 }
 .btn-secondary {

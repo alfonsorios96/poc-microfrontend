@@ -1,0 +1,33 @@
+/* libs/styles/src/variables.css */
+
+:root {
+    --getin-colors-primary: #2CAE79;
+    --getin-colors-primary-active: #10A37F;
+    --getin-colors-primary-light: #EEFFF6;
+    --getin-colors-sucess: #4CAF50;
+    --getin-colors-sucess-active: #47BE7D;
+    --getin-colors-sucess-light: #E8FFF3;
+    --getin-colors-danger: #D00C17;
+    --getin-colors-danger-active: #AD0A13;
+    --getin-colors-danger-light: #FFF5F8;
+    --getin-colors-info: #7239EA;
+    --getin-colors-info-active: #5014D0;
+    --getin-colors-info-light: #F8F5FF;
+    --getin-colors-warning: #F9A825;
+    --getin-colors-warning-active: #DB9D21;
+    --getin-colors-warning-light: #FFF8DD;
+    --getin-colors-white: #FFFFFF;
+    --getin-colors-white-active: #F5F8FA;
+    --getin-colors-dark: #1A433F;
+    --getin-colors-grey-100: #FAFBFF;
+    --getin-colors-grey-200: #F2F3F7;
+    --getin-colors-grey-300: #CBD4DF;
+    --getin-colors-grey-400: #ABBACC;
+    --getin-colors-grey-500: #808C99;
+    --getin-colors-grey-600: #6B7580;
+    --getin-colors-grey-700: #565E66;
+    --getin-colors-grey-800: #495057;
+    --getin-colors-grey-900: #31363B;
+  
+    /* Otras variables */
+}

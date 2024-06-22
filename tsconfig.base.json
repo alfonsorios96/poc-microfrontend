@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@backoffice/components": ["components/src/index.ts"]
+      "@backoffice/components": ["components/src/index.ts"],
+      "@styles/*": ["libs/styles/src/*"],
     }
   },
   "exclude": ["node_modules", "tmp"]

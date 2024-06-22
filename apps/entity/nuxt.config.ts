@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     autoImport: true,
   },
 
-  css: ['~/assets/css/styles.scss'],
+  css: ['~/assets/css/styles.scss', '@styles/index.css'],
 
   vite: {
     plugins: [nxViteTsPaths()],
