@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@backoffice/components": ["components/src/index.ts"],
-      "@backoffice/entity": ["apps/entity/src/app.vue"]
+      "@backoffice/entity": ["apps/entity/src/app.vue"],
     }
   },
   "exclude": ["node_modules", "tmp"]

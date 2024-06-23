@@ -1,8 +1,11 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "composite": true
+    "composite": true,
+    "paths": {
+      "@locales": ["src/locales"]
+    }
   },
-  "include": [".nuxt/nuxt.d.ts", "src/**/*"],
+  "include": [".nuxt/nuxt.d.ts", "src/**/*", "nuxt-i18n.d.ts"],
   "exclude": []
 }

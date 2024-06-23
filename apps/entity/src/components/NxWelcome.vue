@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { locale, setLocale } = useI18n()
 defineProps<{
   title: string;
 }>();
@@ -12,6 +13,12 @@ defineProps<{
           <span> Hello there, </span>
           Welcome {{ title }} 👋
         </h1>
+      </div>
+
+      <div>
+        <button @click="setLocale('en')">en</button>
+        <button @click="setLocale('fr')">fr</button>
+        <p>{{ $t('welcome') }}</p>
       </div>
 
       <div id="hero" class="rounded">

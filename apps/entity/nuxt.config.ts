@@ -25,4 +25,24 @@ export default defineNuxtConfig({
   vite: {
     plugins: [nxViteTsPaths()],
   },
+  modules: [
+    [
+      "@nuxtjs/i18n",
+      {
+        legacy: true,
+        locales: ['en', 'fr'],
+        defaultLocale: 'en',
+        messages: {
+          en: {
+            hi: 'Welcome',
+            welcome: 'Welcome',
+          },
+          fr: {
+            hi: 'Bienvenue',
+            welcome: 'Welcome',
+          }
+        }
+      }
+    ]
+  ],
 });
