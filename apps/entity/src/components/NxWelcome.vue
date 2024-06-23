@@ -491,7 +491,9 @@ defineProps<{
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../assets/css/colors.scss";
+
 svg {
   display: block;
   vertical-align: middle;
@@ -536,6 +538,7 @@ pre {
   font-weight: 500;
   letter-spacing: -0.025em;
   line-height: 1;
+  color: $getin-danger;
 }
 #welcome span {
   display: block;

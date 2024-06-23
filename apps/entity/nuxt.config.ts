@@ -22,6 +22,16 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/styles.scss'],
 
+  build: {
+    loaders: {
+      scss: {
+        additionalData: `
+          @import "~/assets/css/colors.scss";
+        `
+      }
+    }
+  },
+
   vite: {
     plugins: [nxViteTsPaths()],
   },
