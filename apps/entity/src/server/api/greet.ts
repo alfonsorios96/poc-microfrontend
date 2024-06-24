@@ -5,6 +5,6 @@ export default defineEventHandler((event) => {
   const name = q.name || 'World';
 
   return {
-    message: `Hello ${projectName}`,
+    message: `Hello ${name}`,
   };
 });

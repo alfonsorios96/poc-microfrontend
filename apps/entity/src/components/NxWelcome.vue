@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { locale, setLocale } = useI18n()
+import { useI18n } from 'vue-i18n'
+import i18nConfig from '../locales';
+const { t, setLocale } = useI18n(i18nConfig)
 defineProps<{
   title: string;
 }>();
@@ -16,9 +18,10 @@ defineProps<{
       </div>
 
       <div>
-        <button @click="setLocale('en')">en</button>
-        <button @click="setLocale('fr')">fr</button>
-        <p>{{ $t('welcome') }}</p>
+        <button @click="setLocale('es')">Español</button>
+        <button @click="setLocale('en')">English</button>
+        <button @click="setLocale('fr')">Français</button>
+        <p>{{ t('welcome') }}</p>
       </div>
 
       <div id="hero" class="rounded">
@@ -492,7 +495,7 @@ defineProps<{
 </template>
 
 <style scoped lang="scss">
-@import "../assets/css/colors.scss";
+@import "../assets/css/remote-colors.scss";
 
 svg {
   display: block;
